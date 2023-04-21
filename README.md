@@ -29,4 +29,4 @@ Start the project, if using `npm`
 npm run start
 ```
 
-The app will be running at http://localhost:300.
+The app will be running at http://localhost:3000.
