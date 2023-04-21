@@ -1,0 +1,75 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: hsl(0, 0%, 30%);
+}
+
+main {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2.5rem;
+}
+
+h1, h2 {
+  font-family: 'Georgia', serif;
+  color: hsl(0, 0%, 11%);
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin: 0 0 3.125rem;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover h2 {
+  text-decoration: underline;
+  color: hsl(240, 100%, 50%);
+}
+
+.results {
+  padding: 1.25rem;
+}
+
+.loading {
+  font-size: 1.5rem;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 1.5rem;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px 0px;
+  border-radius: 2px;
+}
+
+.item img {
+  width: 22.25rem;
+  height: 12.5rem;
+  margin-left: 1.5rem;
+}
+
+.item > div > p {
+  line-height: 1.5;
+  font-size: 1.125rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.item > div > footer {
+  font-size: 1rem;
+  color: hsl(0, 0%, 35%);
+}
